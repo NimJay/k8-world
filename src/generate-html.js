@@ -21,5 +21,5 @@ function createFile(filePath, fileContents) {
 }
 
 CONCEPTS.forEach(async (concept) => {
-  await createFile(`${__dirname}/../docs/${concept.slug}`, conceptToHtml(concept));
+  await createFile(`${__dirname}/../docs/${concept.slug}.html`, conceptToHtml(concept));
 });
