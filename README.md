@@ -1,5 +1,7 @@
 # K8 World
 
+[Open Website](https://nimjay.github.io/k8-world/)
+
 This project contains a collection of concepts (tools, practices, etc.) that developers working with Kubernetes (K8) should know.
 
 Each concept is detailed with:
