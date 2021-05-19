@@ -52,7 +52,7 @@ function conceptToHtml(concept) {
       width: 200px;
     }
     h1 {
-      font-size: 45px;
+      font-size: 35px;
       font-weight: normal;
       line-height: 1.3em;
       width: 100%;
