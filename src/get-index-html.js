@@ -6,7 +6,7 @@ const { CONCEPTS } = require('./concepts');
  */
 function getIndexHtml() {
   const title = 'K8 World';
-  const description = 'A collection of concepts (tools, practices, etc.) that developers working with Kubernetes (K8) should know';
+  const description = 'A collection of concepts (tools, practices, etc.) that developers working with Kubernetes (K8) should know.';
   return `<!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +40,12 @@ function getIndexHtml() {
       font-size: 20px;
       line-height: 1.5em;
       margin: 0;
-      padding: 10px 10px;
+      padding: 80px 10px 0 10px;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   </style>
 
