@@ -4,7 +4,7 @@
  * @returns {string}
  */
 function conceptToHtml(concept) {
-  const { slug, title, sentence, paragraph } = concept;
+  const { slug, title, sentence, paragraph, imgAlt } = concept;
   return `<!DOCTYPE html>
 <html lang="en">
 
@@ -64,14 +64,16 @@ function conceptToHtml(concept) {
   </style>
 </head>
 
-<html>
+<body>
 
 <main>
-  <img src="./images/${slug}.jpg" />
+  <img src="./images/${slug}.jpg" alt="${imgAlt}" />
   <h1>${title}</h1>
   <p>${sentence}</p>
   <p>${paragraph}</p>
 </main>
+
+</body>
 
 </html>
 `;

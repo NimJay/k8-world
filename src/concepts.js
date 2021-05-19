@@ -5,6 +5,7 @@
  * @property {string} title
  * @property {string} sentence
  * @property {string} paragraph
+ * @property {string} imgAlt
  */
 
 /**
@@ -16,12 +17,14 @@ const CONCEPTS = [
     'title': 'foo',
     'sentence': 'foo',
     'paragraph': 'foo',
+    'imgAlt': 'foo',
   },
   {
     'slug': 'bar',
     'title': 'bar',
     'sentence': 'bar',
     'paragraph': 'bar',
+    'imgAlt': 'bar',
   },
 ];
 
