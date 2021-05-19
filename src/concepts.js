@@ -14,9 +14,9 @@
 const CONCEPTS = [
   {
     'slug': 'foo',
-    'title': 'foo',
-    'sentence': 'foo',
-    'paragraph': 'foo',
+    'title': ``,
+    'sentence': ``,
+    'paragraph': ``,
     'imgAlt': 'foo',
   },
   {
