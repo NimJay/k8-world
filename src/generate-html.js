@@ -7,6 +7,7 @@ Just run: node generate-html.js
 const fs = require('fs');
 const { conceptToHtml } = require('./concept-to-html');
 const { CONCEPTS } = require('./concepts');
+const { getIndexHtml } = require('./get-index-html');
 
 function createFile(filePath, fileContents) {
   return new Promise((resolve, reject) => {
@@ -23,3 +24,5 @@ function createFile(filePath, fileContents) {
 CONCEPTS.forEach(async (concept) => {
   await createFile(`${__dirname}/../docs/${concept.slug}.html`, conceptToHtml(concept));
 });
+
+createFile(`${__dirname}/../docs/index.html`, getIndexHtml());
